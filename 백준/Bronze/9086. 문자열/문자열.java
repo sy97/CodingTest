@@ -7,10 +7,9 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		int T = sc.nextInt();
 		String[] s = new String[T];
-		sc.nextLine();
 		
 		for(int i = 0; i < s.length; i++) {
-			s[i] = sc.nextLine();
+			s[i] = sc.next();
 		}
 		
 		for(int i = 0; i < s.length; i++) {
